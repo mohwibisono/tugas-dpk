@@ -1,0 +1,199 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #139487;
+    z-index: 1;
+    border: 2px solid #00421c;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #35c8ba;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: courier;
+    color: #139487;
+    padding: 29px ;
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #139487;
+}
+
+a.tbl-biru:hover{
+    background: #070739;
+    text-decoration: none;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.judul {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: courier;
+    color: #139487;
+    padding: 100px 15px 20px 0px ;
+    text-decoration: underline;
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 120%;
+    border: 1px solid #f2f5f7;
+    text-decoration: solid;
+}
+ 
+.table1 tr th{
+    background: #139487;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table1, th, td {
+    padding: 10px 10px;
+    text-align: center;
+}
+ 
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.kolom {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.isi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: courier;
+    color: #139487;
+    padding: 20px 0px 20px 0px;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+.teks {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: courier;
+    color: #139487;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: Courier;
+    font-size: larger;
+    color: #000000;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+h2 {
+    font-family: courier;
+    font-size: larger;
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
